@@ -1,0 +1,350 @@
+/*Sur toutes la pages*/
+* {
+  box-sizing: border-box;
+  text-decoration:none;
+}
+/*sur le corp de la pages*/
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background-color:#160D22;
+  color:#8EB9CB;
+  
+}
+/*police du haut de pages*/
+.header h1 {
+  font-size: 50px;
+  
+}
+
+/*Barre menu principale(le bloc)*/
+.navbar {
+  overflow: hidden;
+  background-color: #CD6415; 
+  color:#CD6415;
+}
+/*Les liens de la barre principale*/
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/*la barre secondaire*/
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+/*text de la barre principale*/
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+/*lorsque le curseur est sur la barre principale*/
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: white;
+  color:#CD6415;
+}
+/*bloc de barre secondaire*/
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #160D22;
+  width: 100%;
+  z-index: 1;
+}
+/*texte de barre secondaire*/
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+/*texte de barre secondaire lorsque la curseur est dessus*/
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+/*texte de barre secondaire*/
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+
+/*pour le bloc recherche*/
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 1px solid #8EB9CB;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 2px 10px 2px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  
+}
+/*pour le bloc recherche*/
+input[type=password] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 1px solid #8EB9CB;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 2px 10px 2px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  
+}
+/* Full-width input fields */
+input[type=texte], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+input[type=text]:focus {
+  width: 100%;
+}
+
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+  
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+footer {
+  padding: 20px;
+  text-align: center;
+  overflow: hidden;
+  background-color: #333;
+  margin-top: 5px;
+  text-decoration: none;
+  background-color:#160D22;
+  color:#8EB9CB;
+}
+.cardcentral {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.columncentral {   
+  
+ padding-left: 20px;
+  float: left;
+  width: 75%;
+  
+}
+  
+.sommaire {
+	text-align:center;
+	text-decoration:none;
+	color:white;
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+ 
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #160D22;
+  padding: 20px;
+  margin-top: 20px;
+  color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #CD6415;
+  color: white;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-decoration:none;
+  
+}
+
+button:hover {
+  
+  color:#CD6415;
+  background-color:white;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+label {
+	color:white;
+}
+	
+
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* contenu de la page pop connexion */
+.modal-content {
+  background-color: #160D22;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #160D22;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* le bouton fermer (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #160D22;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #CD6415;
+  cursor: pointer;
+}
+
+/* Zone Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* change le style etendu de l'ecran */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+
+/*#CD6415 #160D22 #8EB9CB #F1F1ED*/

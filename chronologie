@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+ <title>Saturne-Web</title>
+ <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="icon" href="pngegg.png" />
+<link rel="stylesheet" href="Saturne-Web.css" />
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+
+
+
+<body>
+<div class="header">
+<table>
+<tr>
+	<td><img src="pngegg.png" alt="ici illustration" width="150" height="150"></td>
+		<td><h1>Saturne-Web</h1>
+			<p>"Pour les fans du ciel"</p>
+		</td>
+		
+	</tr>
+</table>
+  
+</div>
+
+<div class="navbar">
+  <a href="Saturne-Web.html"><i class="fa fa-fw fa-home"></i>Accueil</a>
+  <div class="subnav">
+    <button class="subnavbtn"><i class='fas fa-hashtag'></i>Evénements <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="PhénomènesAstronomiques.html">Phénomènes Astronomiques</a>
+      <a href="Evénements.html">Evénements</a>
+      <a href="Newsletters.html">Newsletters</a>
+	  <a href="Lien.html">Lien à visiter</a>
+    </div>
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn"><i class='fas fa-meteor'></i>Astronomie <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="Constellations.html">Constellations</a>
+      <a href="CielProfond.html">Ciel Profond</a>
+      <a href="Etoiles.html">Etoiles</a>
+      <a href="Satellites.html">Satellites</a>
+	  <a href="Systèmesolaire.html">Système solaire</a>
+	  <a href="Innovations.html">Innovations</a>
+	  <a href="Quizz.html">Quizz</a>
+    </div>
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn"><i class='fas fa-space-shuttle'></i>Aérospatiale <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="Aéronautiques.html">Aéronautiques</a>
+      <a href="Historique.html">Historique</a>
+      <a href="InnovationsA.html">Innovations</a>
+      <a href="Navettes.html">Navettes/fusées</a>
+	  <a href="SatellitesA.html">Satellites</a>
+	  <a href="Robots.html">Robots de recherches</a>
+	  <a href="QuizzA.html">Quizz</a>
+    </div>
+  </div>
+  <a href="connecter.html"><i class="fa fa-fw fa-user"></i>Se Connecter</a>
+  <a href="#"style="float:right"><i class="fa fa-fw fa-search"></i> <input type="text" name="search" placeholder="Recherche..."></a>
+</div>
+
+
+
+<div class="row">
+  <div class="columncentral">
+  <div class="cardcentral">
+    <div class="sommaire">
+		<h1>Sommaire</h1>
+			<li><a href="#I.Titre" style="color:white;">Ici mettre le theme</a></li>
+			<li><a href="#II.Titre"style="color:white;">Ici mettre le theme</a></li>
+			<li><a href="#III.Titre"style="color:white;">Ici mettre le theme</a></li>
+			
+	</div> 
+<table>
+	<tr>
+		<td><h1 id="I.Titre">I.Titre.</h1></td>
+	</tr>
+	<tr>
+		<td><h6>petite explication si besoin<h6></td>
+	</tr>
+	<tr>
+		<td><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<p></td>
+		<td><img src="pngegg.png" alt="ici illustration" width="300" height="300"></td>
+	</tr>
+</table>
+<table>
+	<tr>
+		<td><h1 id="II.Titre">II.Titre.</h1></td>
+	</tr>
+	<tr>
+		<td><h6>petite explication si besoin<h6></td>
+	</tr>
+	<tr>
+	<td><img src="pngegg.png" alt="ici illustration" width="300" height="300"></td>
+		<td><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<p></td>
+	
+	</tr>
+</table>
+<table>
+	<tr>
+		<td><h1 id="III.Titre">III.Titre.</h1></td>
+	</tr>
+	<tr>
+		<td><h6>petite explication si besoin<h6></td>
+	</tr>
+	<tr>
+	<td><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<p></td>
+	<td><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum<p></td>
+	
+
+		<td><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<p></td>
+	</tr>
+</table>
+
+
+  </div>
+  </div>
+</div>
+
+
+<div class="footer">
+  <h2>"Citations"</h2>
+  <!--<?php 
+		$connexion= new mysqli("localhost","root","","smi")//a changer
+	or die("Connexion au serveur impossible");
+	//Sélectionner tous les types de pièces présents dans la table Type
+		$requete="SELECT * FROM idCita ORDER BY RAND()";
+	//Éxécution de la requête
+	$resultat=$connexion->query($requete)
+	or die("Execution de la requete impossible");
+	
+	echo "<h2>$resultat</h2>";
+	
+  ?>-->
+  <h5><a href="contact.html" style="color:white;">A propos de nous</a></h5>
+</div>
+</body>
+</html>
+
